@@ -29,3 +29,13 @@ A function called sector_eps_visual() is defined to plot the graphs for all the 
 The EPS data for all the sectors is also plotted on a bar chart to compare the EPS of all the sectors in the index.
 
 Overall, the code provides valuable insights into the earning potential of the S&P 500 Index and its constituent sectors, which can be useful for investors and analysts seeking to make informed investment decisions.
+
+This next block of code generates visualizations to analyze the dividend yield potential of companies within each sector of the S&P 500 Index. The code calculates and visualizes the Dividend Yield ratio, which measures the percentage of a company's stock price that is paid out in dividends to shareholders. The visualizations created include bar charts that make it easy to compare the Dividend Yield of individual companies and sectors within the index.
+
+The function sector_dps_visual() is used to plot the graphs for all the sectors in the S&P 500 Index. The function takes a sector name as input and creates a bar chart of the top 5 and least 5 performing companies per sector. The bars in the chart are colored based on their Dividend Yield. The function also adds a horizontal line for S&P500 Index Performance and the Sector Average Performance. The function sets the y limits, title, axis labels, x-axis tick labels, and legend for the plot. Finally, the function prints the summary of the plot mentioning the highest and the lowest performers in the sector.
+
+The loop for i in sector_list: is used to deploy the sector_dps_visual() function to plot all the required graphs by looping through the list of sectors in the S&P500 Index.
+
+The code also includes a bar chart that compares the Dividend Yield of all the sectors in the Index. The bar chart is created using the plot_df DataFrame and setting the colors for the bars. The chart includes a title, axis labels, and legend.
+
+Overall, this code provides valuable insights into the dividend payout potential of the S&P 500 Index and its constituent sectors, which can be useful for investors and analysts seeking to make informed investment decisions.
