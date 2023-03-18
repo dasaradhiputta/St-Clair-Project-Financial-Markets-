@@ -20,3 +20,12 @@ This next block of code block is a profitability analysis of the companies in th
 This code block contains a function named sector_profitability_visual that takes a sector name as input and produces a visualization for the profitability analysis of that sector. The function reads in a CSV file that contains the data for the companies in that sector and creates a filtered table for plotting a bar chart for the top 5 and bottom 5 performing companies per sector. It then sets the plot style and creates a bar plot using the seaborn library, with the net profit margin on the y-axis and the company names on the x-axis. The plot also includes a horizontal line for the S&P500 Index performance and the sector average performance.
 
 This code block also contains a for loop that iterates over all sectors in the S&P500 Index and applies the sector_profitability_visual function to each sector. The loop prints a summary of the plot for each sector, including the most profitable company, the least profitable company, and the average profitability of companies in that sector.
+
+
+This next block of code analyzes the earnings per share (EPS) of companies within each sector of the S&P 500 Index. It calculates and visualizes the EPS ratio, which is a key metric that indicates the profitability of a company on a per-share basis. The analysis includes the following:
+
+A function called sector_eps_visual() is defined to plot the graphs for all the sectors in the S&P500 Index. This function takes a sector name as an argument, reads a CSV file containing the EPS data for companies within that sector, filters and sorts the data to obtain the top 5 and bottom 5 performing companies, creates a bar chart with the EPS values, adds horizontal lines for the sector average EPS and the S&P500 Index EPS, and displays the chart. It also prints a summary of the plot mentioning the highest and the lowest performers in the sector and the average EPS for companies in that sector. The function is called in a loop for each sector in the S&P500 Index.
+
+The EPS data for all the sectors is also plotted on a bar chart to compare the EPS of all the sectors in the index.
+
+Overall, the code provides valuable insights into the earning potential of the S&P 500 Index and its constituent sectors, which can be useful for investors and analysts seeking to make informed investment decisions.
