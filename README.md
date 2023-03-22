@@ -19,3 +19,16 @@ The following libraries and packages are required to run this code:
 * google.colab
 * plotly.graph_objs
 * plotly.offline
+
+
+## Running the tests
+
+To run this code, simply open it in a Python environment such as Jupyter Notebook or Google Colab and run each cell one by one.
+
+## Authors
+
+* **John Doe** - *Initial work*
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
