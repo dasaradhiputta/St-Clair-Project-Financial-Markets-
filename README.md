@@ -27,7 +27,9 @@ To run this code, simply open it in a Python environment such as Jupyter Noteboo
 
 ## Authors
 
-* **John Doe** - *Initial work*
+* **Dasaradhi Putta** - *Code Work*
+* **Sumanth Donthula** - *Domain Knowledge*
+* **Manish Kumar. M** - *Domain Knowledge*
 
 ## License
 
