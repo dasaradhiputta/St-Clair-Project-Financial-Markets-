@@ -4,7 +4,7 @@ This repository contains Python code that analyzes the financial statements of a
 
 ## Getting Started
 
-To get started with this project, you will need to have access to Google Drive and provide necessary credentials to log into your Google account. Once you have successfully logged in, you can easily navigate to the required directories and access the files as needed.
+To get started with this project, you will need to have access to Google Drive and provide necessary credentials to log into your Google account. You also need access to the Financial Modelling Prep (FMP) API key, which is available free of charge, while registering on the site. Once you have successfully logged in, you can easily navigate to the required directories and access the files as needed.
 
 ## Prerequisites
 
